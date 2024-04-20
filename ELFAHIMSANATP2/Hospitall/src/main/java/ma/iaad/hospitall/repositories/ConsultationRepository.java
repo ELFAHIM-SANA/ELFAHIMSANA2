@@ -1,0 +1,8 @@
+package ma.iaad.hospitall.repositories;
+
+import ma.iaad.hospitall.entities.Consultation;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface ConsultationRepository extends JpaRepository<Consultation,Long> {
+}
